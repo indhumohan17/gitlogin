@@ -9,10 +9,10 @@ const Home = () => {
                         <span class="navbar mb-0 h1 display-6">Dark</span>
                         <ul class="nav justify-content-center h4">
                             <li class="nav-item">
-                                <Link to='/' class="nav-link active">Home</Link>
+                                <Link to='/gitlogin' class="nav-link active">Home</Link>
                             </li>
                             <li class="nav-item">
-                                <Link to='/about' class="nav-link active">About</Link>
+                                <Link to='/gitlogin/about' class="nav-link active">About</Link>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link" href="#">Content</a>
