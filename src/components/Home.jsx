@@ -1,5 +1,4 @@
 import React from 'react';
-import IntroImg from"../assets/bootstrap2.jpg";
 import { Link } from "react-router-dom";
 const Home = () => {
     return (
@@ -22,9 +21,27 @@ const Home = () => {
                     </div>
                 </nav>
             </div>
-            <div >
-                <img class="img-fluid" style={{ height: 630, width: 4000 }} src={IntroImg} alt="Responsive image" />
+
+            <div>
+                <div class="container py-4">
+                    <div class="row">
+                        <div class="col-md-5">
+                            <div class="networking">
+                                <h2 class="display-5 heading">Networking <span class="brand-name"> solutions </span> for
+                                    worldwide communication</h2>
+                                <p class="text-muted">We're a company that focuses on establishing long-term relationships with customers.</p>
+                                <button type="button" id="change-lang" class="btn btn-primary rounded-pill px-4 py-3">Explore Now</button>
+                            </div>
+                        </div>
+                        <div class="col-md-7">
+                            <div class="img">
+                                <img src="https://img.freepik.com/free-vector/endpoint-concept-illustration_114360-6375.jpg?w=740&t=st=1666852595~exp=1666853195~hmac=3a207fff771155f287a29ed1dabc6ab37e6bdb5141a29c56711b772023ff9865" alt="communication" class="w-100" />
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
+
         </div>
     )
 }

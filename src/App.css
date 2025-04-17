@@ -4,3 +4,44 @@
   padding-bottom: 80px;
   min-height: 100vh;
 }
+.brand-name {
+  color: #ffc901 !important;
+}
+.networking {
+  padding: 116px 0;
+}
+.heading {
+  font-weight: bold;
+  font-size: 44px;
+  color: #385b64;
+}
+.btn-primary {
+  color: #000;
+  background-color: #ffc901 !important;
+  border-color: #ffc901 !important;
+}
+.btn-primary:hover,
+.btn-primary:focus {
+  color: #fff;
+  background-color: #2d454f;
+  border-color: #2d454f;
+}
+.img {
+  width: 719px;
+}
+.nav-link::after {
+  content: "";
+  display: block;
+  width: 0;
+  height: 2px;
+  background: #000000e6;
+  transition: width 0.3s;
+}
+.nav-link:hover::after {
+  width: 100%;
+}
+@media only screen and (max-width: 768px) {
+  .img {
+    width: 338px;
+  }
+}
